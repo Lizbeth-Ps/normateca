@@ -1,0 +1,139 @@
+img.logo {
+	width: 100px;
+	height: 100px;
+}
+
+body {
+	padding-left: 100px;
+	padding-right: 100px;
+	background-image: url("/Components/img/back.png");
+	background-color: rgb(235, 231, 227);
+}
+
+header {
+	width: 100%;
+	/* Establecemos que el header abarque el 100% del documento */
+	overflow: hidden;
+	/* Eliminamos errores de float */
+	background: #202122;
+	margin-bottom: 20px;
+}
+
+footer {
+
+	margin-top: 250px;
+	width: 100%;
+	/* Establecemos que el header abarque el 100% del documento */
+	overflow: hidden;
+	/* Eliminamos errores de float */
+
+	margin-bottom: 20px;
+}
+
+h2 {
+
+	font-size: 10px;
+	color: #f2f2f2;
+
+}
+
+a {
+	color: #f2f2f2;
+}
+
+.wrapper {
+	width: 90%;
+	/* Establecemos que el ancho sera del 90% */
+	max-width: 1000px;
+	/* Aqui le decimos que el ancho máximo sera de 1000px */
+	margin: auto;
+	/* Centramos los elementos */
+	overflow: hidden;
+	/* Eliminamos errores de float */
+}
+
+header .logo {
+	color: #f2f2f2;
+	font-size: 50px;
+	line-height: 200px;
+	float: left;
+}
+
+header nav {
+	float: right;
+	line-height: 80px;
+}
+
+header nav a {
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 20px;
+	line-height: normal;
+	font-size: 20px;
+	font-weight: bold;
+	-webkit-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+
+header nav ul {
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 20px;
+	line-height: normal;
+	font-size: 20px;
+	font-weight: bold;
+	-webkit-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+
+img.ley1 {
+	width: 80px;
+	height: 80px;
+}
+
+img.ley2 {
+	width: 80px;
+	height: 80px;
+}
+
+img.ley3 {
+	width: 80px;
+	height: 80px;
+}
+
+img.ley4 {
+	width: 80px;
+	height: 80px;
+}
+
+img.datos {
+
+	float: right;
+}
+
+p.cp {
+	margin-left: 50px;
+	margin-right: 350px;
+}
+
+p.datos {
+	margin-left: 0px;
+	margin-right: 380px;
+}
+
+.leyes {
+	
+	margin-left: 10%;
+}
+
+h1.aviso {
+	text-align: center;
+}
+.leyes2 {
+	
+	margin-left: 15%;
+}
